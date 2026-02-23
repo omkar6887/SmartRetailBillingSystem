@@ -1,4 +1,4 @@
-# Smart Retail Billing System 🛒
+# Smart Retail Billing System 
 
 ## Tech Stack
 - ASP.NET MVC (.NET Framework)
@@ -21,5 +21,12 @@
 - Billing (POS)
 - Reports & Invoice
 
+## Database Setup
+Run the SQL script inside the Database folder to create tables.
+
+## Screenshots
+Project UI screenshots are available in the Screenshots folder.
+
 ## Author
 Omkar G. Swami
+
