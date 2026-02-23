@@ -1,0 +1,285 @@
+﻿@inherits System.Web.Mvc.WebViewPage
+@{
+    ViewBag.Title = "Smart Billing POS";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+<style>
+    body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f4f7f9;
+    }
+
+    .pos-header {
+        background: white;
+        padding: 15px 30px;
+        border-bottom: 1px solid #e3e8ed;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 0 0 15px 15px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    }
+
+    .scan-card {
+        background: white;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    #barcodeInput {
+        height: 60px;
+        font-size: 1.2rem;
+        border: 2px solid #dee2e6;
+        border-radius: 10px;
+        padding-left: 50px;
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="gray" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><line x1="8" y1="12" x2="16" y2="12"/></svg>') no-repeat 15px center;
+    }
+
+        #barcodeInput:focus {
+            border-color: #0d6efd;
+            box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.1);
+        }
+
+    .table-container {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        overflow: hidden;
+    }
+
+    .table thead {
+        background: #f8f9fa;
+        border-bottom: 2px solid #f1f4f9;
+    }
+
+    .table th {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        letter-spacing: 0.5px;
+        color: #6c757d;
+        padding: 15px;
+    }
+
+    .summary-card {
+        background: #0d6efd;
+        color: white;
+        border-radius: 12px;
+        padding: 25px;
+        position: sticky;
+        top: 20px;
+    }
+
+    .btn-action {
+        border-radius: 10px;
+        padding: 12px;
+        font-weight: 600;
+        transition: all 0.2s;
+    }
+
+    .btn-generate {
+        background: white;
+        color: #0d6efd;
+        border: none;
+    }
+
+        .btn-generate:hover {
+            background: #f8f9fa;
+            transform: translateY(-2px);
+        }
+
+    .badge-qty {
+        background: #e9ecef;
+        color: #495057;
+        padding: 5px 12px;
+        border-radius: 6px;
+        font-weight: 600;
+    }
+</style>
+
+<div class="pos-header">
+    <div>
+        <h4 class="fw-bold mb-0 text-primary"><i class="bi bi-lightning-charge-fill"></i> Smart POS</h4>
+    </div>
+    <div class="d-flex align-items-center">
+        <div class="text-end me-3">
+            <small class="text-muted d-block">Operator</small>
+            <span class="fw-semibold">@Session["Username"]</span>
+        </div>
+        <a href="/Account/Logout" class="btn btn-outline-danger btn-sm rounded-pill px-3">
+            <i class="bi bi-box-arrow-right"></i> Logout
+        </a>
+    </div>
+</div>
+
+<div class="container-fluid px-4">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="scan-card">
+                <label class="form-label fw-bold text-muted small text-uppercase">Scan Item Barcode</label>
+                <input type="text" id="barcodeInput" class="form-control"
+                       placeholder="Scan here to add to cart..." autofocus />
+            </div>
+
+            <div class="table-container">
+                <table class="table table-hover mb-0" id="billingTable">
+                    <thead>
+                        <tr>
+                            <th>Product Details</th>
+                            <th class="text-center">Price</th>
+                            <th class="text-center">Qty</th>
+                            <th class="text-end">Total</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="align-middle">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="summary-card shadow-lg">
+                <h5 class="mb-4">Order Summary</h5>
+
+                <div class="d-flex justify-content-between mb-2 opacity-75">
+                    <span>Subtotal</span>
+                    <span id="subTotal">Rs 0.00</span>
+                </div>
+                <div class="d-flex justify-content-between mb-4 opacity-75">
+                    <span>Tax (0%)</span>
+                    <span>Rs 0.00</span>
+                </div>
+
+                <hr class="bg-white">
+
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <span class="fs-5">Total Amount</span>
+                    <span class="fs-2 fw-bold">Rs <span id="grandTotal text-white">0.00</span></span>
+                </div>
+
+                <button class="btn btn-action btn-generate w-100 mb-3 shadow" id="btnGenerateBill">
+                    <i class="bi bi-check-circle-fill"></i> COMPLETE ORDER
+                </button>
+
+                <button class="btn btn-outline-light w-100 border-0 opacity-75" id="btnClear">
+                    <i class="bi bi-trash"></i> Cancel Transaction
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+    var cart = [];
+
+    $("#barcodeInput").keypress(function (e) {
+        if (e.which === 13) {
+            var barcode = $(this).val().trim();
+            if (barcode !== "") {
+                fetchProduct(barcode);
+                $(this).val("");
+            }
+        }
+    });
+
+    function fetchProduct(barcode) {
+        $.ajax({
+            url: '@Url.Action("GetProductByBarcode", "Billing")',
+            type: 'GET',
+            data: { barcode: barcode },
+            success: function (data) {
+                if (data) {
+                    addProductToGrid(data);
+                } else {
+                    Swal.fire('Error', 'Product not found', 'error'); // Better than alert
+                }
+            }
+        });
+    }
+
+    function addProductToGrid(product) {
+        var existing = cart.find(x => x.ProductId === product.ProductId);
+        if (existing) {
+            existing.Quantity++;
+            existing.Total = existing.Quantity * existing.Price;
+        } else {
+            cart.push({
+                ProductId: product.ProductId,
+                ProductName: product.ProductName,
+                Price: product.Price,
+                Quantity: 1,
+                Total: product.Price
+            });
+        }
+        renderTable();
+    }
+
+    function renderTable() {
+        var tbody = $("#billingTable tbody");
+        tbody.empty();
+        var grandTotal = 0;
+
+        cart.forEach(function (item, index) {
+            grandTotal += item.Total;
+            tbody.append(
+                `<tr>
+                    <td>
+                        <div class="fw-bold text-dark">${item.ProductName}</div>
+                        <small class="text-muted">ID: ${item.ProductId}</small>
+                    </td>
+                    <td class="text-center text-muted">Rs ${item.Price.toFixed(2)}</td>
+                    <td class="text-center">
+                        <span class="badge-qty">${item.Quantity}</span>
+                    </td>
+                    <td class="text-end fw-bold text-primary">Rs ${item.Total.toFixed(2)}</td>
+                    <td class="text-center">
+                        <button class="btn btn-link text-danger p-0" onclick="removeItem(${index})">
+                            <i class="bi bi-x-circle-fill fs-5"></i>
+                        </button>
+                    </td>
+                </tr>`
+            );
+        });
+
+        $("#grandTotal, #subTotal").text(grandTotal.toFixed(2));
+    }
+
+    function removeItem(index) {
+        cart.splice(index, 1);
+        renderTable();
+    }
+
+    $("#btnClear").click(function () {
+        if(confirm("Clear current cart?")) {
+            cart = [];
+            renderTable();
+        }
+    });
+
+    $("#btnGenerateBill").click(function () {
+        if (cart.length === 0) return;
+
+        $.ajax({
+            url: '@Url.Action("GenerateBill", "Billing")',
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify({ CartItems: cart }),
+            success: function (response) {
+                if (response.success) {
+                    window.location.href = '/Billing/Invoice/' + response.billId;
+                }
+            }
+        });
+    });
+    </script>
+}

@@ -1,0 +1,619 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|e:\\z_self\\.net projects\\04_smart_retail_billing\\smartretailbillingsystem\\smartretail.ui\\controllers\\billingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\controllers\\billingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\models\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\models\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\views\\billing\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\views\\billing\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\views\\billing\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\views\\billing\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D352968-E02D-4B86-9695-EE1A17A764F1}|SmartRetail.API\\SmartRetail.API.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.api\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D352968-E02D-4B86-9695-EE1A17A764F1}|SmartRetail.API\\SmartRetail.API.csproj|solutionrelative:smartretail.api\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.data\\context\\smartretaildbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|solutionrelative:smartretail.data\\context\\smartretaildbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819D3D6B-E5F4-4869-9325-005B6B1493A8}|SmartRetail.Core\\SmartRetail.Core.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.core\\models\\generatebillrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819D3D6B-E5F4-4869-9325-005B6B1493A8}|SmartRetail.Core\\SmartRetail.Core.csproj|solutionrelative:smartretail.core\\models\\generatebillrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819D3D6B-E5F4-4869-9325-005B6B1493A8}|SmartRetail.Core\\SmartRetail.Core.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.core\\services\\billingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819D3D6B-E5F4-4869-9325-005B6B1493A8}|SmartRetail.Core\\SmartRetail.Core.csproj|solutionrelative:smartretail.core\\services\\billingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819D3D6B-E5F4-4869-9325-005B6B1493A8}|SmartRetail.Core\\SmartRetail.Core.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.core\\models\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819D3D6B-E5F4-4869-9325-005B6B1493A8}|SmartRetail.Core\\SmartRetail.Core.csproj|solutionrelative:smartretail.core\\models\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819D3D6B-E5F4-4869-9325-005B6B1493A8}|SmartRetail.Core\\SmartRetail.Core.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.core\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819D3D6B-E5F4-4869-9325-005B6B1493A8}|SmartRetail.Core\\SmartRetail.Core.csproj|solutionrelative:smartretail.core\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819D3D6B-E5F4-4869-9325-005B6B1493A8}|SmartRetail.Core\\SmartRetail.Core.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.core\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819D3D6B-E5F4-4869-9325-005B6B1493A8}|SmartRetail.Core\\SmartRetail.Core.csproj|solutionrelative:smartretail.core\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\filters\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\filters\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.data\\models\\billitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|solutionrelative:smartretail.data\\models\\billitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\models\\billingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\models\\billingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\models\\billitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\models\\billitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.data\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|solutionrelative:smartretail.data\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|solutionrelative:smartretail.data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.data\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|solutionrelative:smartretail.data\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.data\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|solutionrelative:smartretail.data\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.data\\entities\\inventorylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|solutionrelative:smartretail.data\\entities\\inventorylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.data\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|solutionrelative:smartretail.data\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.data\\entities\\billitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A8CA63-74E0-4C23-9BB7-52DC02BC112C}|SmartRetail.Data\\SmartRetail.Data.csproj|solutionrelative:smartretail.data\\entities\\billitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\smartretail.ui\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C41F8FA2-B12F-439B-8CAF-09469C296290}|SmartRetail.UI\\SmartRetail.UI.csproj|solutionrelative:smartretail.ui\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 30,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.API\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "SmartRetail.API\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.API\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "SmartRetail.API\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T18:47:17.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "SmartRetail.UI\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAgwJIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T18:22:31.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Models\\DashboardViewModel.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "SmartRetail.UI\\Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T18:21:48.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Controllers\\DashboardController.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "SmartRetail.UI\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T18:10:11.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BillingViewModel.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Models\\BillingViewModel.cs",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Models\\BillingViewModel.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Models\\BillingViewModel.cs",
+              "RelativeToolTip": "SmartRetail.UI\\Models\\BillingViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T11:55:55.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BillItem.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Models\\BillItem.cs",
+              "RelativeDocumentMoniker": "SmartRetail.Data\\Models\\BillItem.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Models\\BillItem.cs",
+              "RelativeToolTip": "SmartRetail.Data\\Models\\BillItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T11:38:24.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RoleAuthorizeAttribute.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Filters\\RoleAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Filters\\RoleAuthorizeAttribute.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Filters\\RoleAuthorizeAttribute.cs",
+              "RelativeToolTip": "SmartRetail.UI\\Filters\\RoleAuthorizeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:41:21.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "SmartRetail.UI\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAgwJ8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T09:43:54.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SmartRetail.UI\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T09:34:37.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Core\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "SmartRetail.Core\\Services\\AuthService.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Core\\Services\\AuthService.cs",
+              "RelativeToolTip": "SmartRetail.Core\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T09:33:28.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Core\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "SmartRetail.Core\\Models\\LoginRequest.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Core\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "SmartRetail.Core\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T09:32:56.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Core\\Models\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "SmartRetail.Core\\Models\\CartItemDto.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Core\\Models\\CartItemDto.cs",
+              "RelativeToolTip": "SmartRetail.Core\\Models\\CartItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T08:28:52.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GenerateBillRequest.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Core\\Models\\GenerateBillRequest.cs",
+              "RelativeDocumentMoniker": "SmartRetail.Core\\Models\\GenerateBillRequest.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Core\\Models\\GenerateBillRequest.cs",
+              "RelativeToolTip": "SmartRetail.Core\\Models\\GenerateBillRequest.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T08:17:23.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BillingService.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Core\\Services\\BillingService.cs",
+              "RelativeDocumentMoniker": "SmartRetail.Core\\Services\\BillingService.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Core\\Services\\BillingService.cs",
+              "RelativeToolTip": "SmartRetail.Core\\Services\\BillingService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T06:12:40.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SmartRetail.UI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T21:18:34.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SmartRetail.UI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-14T21:17:30.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Invoice.cshtml",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\Billing\\Invoice.cshtml",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Views\\Billing\\Invoice.cshtml",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\Billing\\Invoice.cshtml",
+              "RelativeToolTip": "SmartRetail.UI\\Views\\Billing\\Invoice.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAgwH0AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-14T19:52:41.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvoiceViewModel.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Models\\InvoiceViewModel.cs",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Models\\InvoiceViewModel.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Models\\InvoiceViewModel.cs",
+              "RelativeToolTip": "SmartRetail.UI\\Models\\InvoiceViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T19:49:08.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "InventoryLog.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Entities\\InventoryLog.cs",
+              "RelativeDocumentMoniker": "SmartRetail.Data\\Entities\\InventoryLog.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Entities\\InventoryLog.cs",
+              "RelativeToolTip": "SmartRetail.Data\\Entities\\InventoryLog.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T19:31:09.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BillItemVM.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Models\\BillItemVM.cs",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Models\\BillItemVM.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Models\\BillItemVM.cs",
+              "RelativeToolTip": "SmartRetail.UI\\Models\\BillItemVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T13:02:20.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\App_Start\\RouteConfig.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "SmartRetail.UI\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:55:21.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "web.config",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\web.config",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Views\\web.config",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\web.config",
+              "RelativeToolTip": "SmartRetail.UI\\Views\\web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-02-14T11:42:43.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Global.asax.cs",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Global.asax.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Global.asax.cs",
+              "RelativeToolTip": "SmartRetail.UI\\Global.asax.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:34:53.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\App_Start\\BundleConfig.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "SmartRetail.UI\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:34:26.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "SmartRetail.UI\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:31:22.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Web.config",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Web.config",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Web.config",
+              "RelativeToolTip": "SmartRetail.UI\\Web.config",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-02-13T21:18:37.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BillItem.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Entities\\BillItem.cs",
+              "RelativeDocumentMoniker": "SmartRetail.Data\\Entities\\BillItem.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Entities\\BillItem.cs",
+              "RelativeToolTip": "SmartRetail.Data\\Entities\\BillItem.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T21:08:58.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SmartRetail.UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBpwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T21:01:10.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\Billing\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Views\\Billing\\Index.cshtml",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\Billing\\Index.cshtml",
+              "RelativeToolTip": "SmartRetail.UI\\Views\\Billing\\Index.cshtml",
+              "ViewState": "AgIAAN0AAAAAAAAAAGB3wBEBAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T21:00:09.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "SmartRetail.UI\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T20:56:44.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BillingController.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Controllers\\BillingController.cs",
+              "RelativeDocumentMoniker": "SmartRetail.UI\\Controllers\\BillingController.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.UI\\Controllers\\BillingController.cs",
+              "RelativeToolTip": "SmartRetail.UI\\Controllers\\BillingController.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAAAN4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T20:39:29.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SmartRetailDbContext.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Context\\SmartRetailDbContext.cs",
+              "RelativeDocumentMoniker": "SmartRetail.Data\\Context\\SmartRetailDbContext.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Context\\SmartRetailDbContext.cs",
+              "RelativeToolTip": "SmartRetail.Data\\Context\\SmartRetailDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T19:56:17.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "SmartRetail.Data\\Entities\\User.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Entities\\User.cs",
+              "RelativeToolTip": "SmartRetail.Data\\Entities\\User.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAABoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T19:17:09.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "SmartRetail.Data\\Entities\\Order.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Entities\\Order.cs",
+              "RelativeToolTip": "SmartRetail.Data\\Entities\\Order.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T19:16:40.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "SmartRetail.Data\\Entities\\OrderItem.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "SmartRetail.Data\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T19:16:53.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "SmartRetail.Data\\Entities\\Product.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Entities\\Product.cs",
+              "RelativeToolTip": "SmartRetail.Data\\Entities\\Product.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA6wBkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T19:16:25.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "SmartRetail.Data\\Entities\\Category.cs",
+              "ToolTip": "E:\\z_self\\.NET Projects\\04_Smart_Retail_Billing\\SmartRetailBillingSystem\\SmartRetail.Data\\Entities\\Category.cs",
+              "RelativeToolTip": "SmartRetail.Data\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T19:14:33.941Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

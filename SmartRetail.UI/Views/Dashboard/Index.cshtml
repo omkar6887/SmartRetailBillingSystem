@@ -1,0 +1,165 @@
+﻿@model SmartRetail.UI.Models.DashboardViewModel
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* Subtle hover effect for metric cards */
+    .metric-card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        border-left: 5px solid;
+    }
+
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+        }
+
+    .bg-light-gray {
+        background-color: #f8f9fc;
+    }
+</style>
+
+<div class="container-fluid py-4 px-lg-5 bg-light-gray">
+    <div class="row align-items-center mb-4">
+        <div class="col">
+            <h1 class="h3 mb-0 text-gray-800 font-weight-bold">Analytics Overview</h1>
+            <p class="text-muted small">Real-time data for your retail store</p>
+        </div>
+        <div class="col-auto">
+            <div class="bg-white p-2 rounded shadow-sm border d-flex align-items-center">
+                <div class="mr-3 pl-2">
+                    <span class="text-muted d-block small text-uppercase font-weight-bold">Logged in as</span>
+                    <span class="text-dark font-weight-bold">@Session["Username"] (@Session["Role"])</span>
+                </div>
+                <a href="/Account/Logout" class="btn btn-outline-danger btn-sm ml-3">
+                    <i class="fa fa-sign-out-alt"></i> Logout
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card metric-card border-0 shadow-sm h-100 py-2" style="border-left-color: #1cc88a !important;">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Today's Sales</div>
+                            <div class="h4 mb-0 font-weight-bold text-gray-800">₹ @Model.TodaySales</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-calendar-check fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card metric-card border-0 shadow-sm h-100 py-2" style="border-left-color: #4e73df !important;">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Total Bills</div>
+                            <div class="h4 mb-0 font-weight-bold text-gray-800">@Model.TotalBills</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-file-invoice-dollar fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card metric-card border-0 shadow-sm h-100 py-2" style="border-left-color: #36b9cc !important;">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Total Products</div>
+                            <div class="h4 mb-0 font-weight-bold text-gray-800">@Model.TotalProducts</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-boxes fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card metric-card border-0 shadow-sm h-100 py-2" style="border-left-color: #e74a3b !important;">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">Low Stock Alert</div>
+                            <div class="h4 mb-0 font-weight-bold text-gray-800">@Model.LowStockCount Items</div>
+                        </div>
+                        <div class="col-auto text-danger">
+                            <i class="fas fa-exclamation-circle fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card border-0 shadow-sm mb-4">
+                <div class="card-header bg-white py-3 d-flex justify-content-between align-items-center">
+                    <h6 class="m-0 font-weight-bold text-primary">⚠️ Low Stock Inventory</h6>
+                    <span class="badge badge-danger">Threshold: 10 units</span>
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-hover mb-0 align-middle">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th class="border-0 px-4">Product</th>
+                                    <th class="border-0 text-center">Remaining Stock</th>
+                                    <th class="border-0 text-right px-4">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.LowStockProducts)
+                                {
+                                    <tr>
+                                        <td class="px-4 font-weight-bold">@item.ProductName</td>
+                                        <td class="text-center">
+                                            <div class="progress" style="height: 8px; width: 100px; margin: 0 auto;">
+                                                <div class="progress-bar bg-danger" style="width: @(item.Stock * 10)%"></div>
+                                            </div>
+                                            <small class="text-muted">@item.Stock units</small>
+                                        </td>
+                                        <td class="text-right px-4">
+                                            <button class="btn btn-sm btn-light border">Restock</button>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card border-0 shadow-sm mb-4">
+                <div class="card-header bg-white py-3">
+                    <h6 class="m-0 font-weight-bold text-dark">Quick Actions</h6>
+                </div>
+                <div class="card-body text-center">
+                    <a href="/Billing/Index" class="btn btn-primary btn-block py-3 mb-3 shadow-sm font-weight-bold">
+                        <i class="fa fa-plus-circle mr-2"></i> NEW BILLING ENTRY
+                    </a>
+                    <button class="btn btn-outline-dark btn-block">
+                        <i class="fa fa-print mr-2"></i> Print Today's Report
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
